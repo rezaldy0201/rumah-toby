@@ -8,55 +8,61 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f5f5;
-      color: #333;
-    }
-    header {
-      background-color: #222;
-      color: #fff;
-      padding: 2rem;
+      background-color: #0d1b2a;
+      color: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      min-height: 100vh;
       text-align: center;
     }
-    main {
-      max-width: 700px;
-      margin: 2rem auto;
-      padding: 1rem;
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
-    .button-download {
-      display: inline-block;
-      margin: 1rem 0;
-      padding: 0.75rem 1.5rem;
-      background-color: #007bff;
-      color: #fff;
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background-color: #e0aaff;
+      color: #000;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
       text-decoration: none;
-      border-radius: 5px;
       font-weight: bold;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
-    footer {
-      text-align: center;
+    .btn:hover {
+      background-color: #c77dff;
+      cursor: pointer;
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
       font-size: 0.9rem;
-      padding: 2rem;
-      color: #666;
+      opacity: 0.5;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Rumah Toby</h1>
-    <p>Surat seorang Ayah untuk Dunia</p>
-  </header>
 
-  <main>
-    <p><strong>"Rumah digital pertama dari banyak rumah yang akan kita bangun bersama."</strong></p>
+  <h1>Rumah Toby</h1>
+  <p>
+    Surat digital dari seorang Ayah kepada anaknya…  
+    dan kepada dunia.  
+    Ini bukan sekadar tulisan, ini adalah rumah—  
+    tempat kenangan, pelajaran, dan cinta yang tidak akan pernah hilang.
+  </p>
 
-    <a href="Rumah_Toby_eBook_Pertama.pdf" class="button-download">📥 Unduh eBook (PDF)</a>
+  <a href="ebook-rumah-toby.pdf" class="btn" download>📥 Unduh eBook Rumah Toby</a>
 
-    <h2>Tentang Penulis</h2>
-    <p><strong>Reza Arwan</strong> — seorang ayah yang ingin hidupnya bermanfaat walau sederhana.</p>
-  </main>
+  <div class="footer">oleh Reza Arwan • 2025</div>
 
-  <footer>
-    &copy; 2025 Rumah Toby. Dibangun dengan cinta oleh seorang Ayah.
-  </footer>
 </body>
 </html>
