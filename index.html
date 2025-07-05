@@ -3,33 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rumah Toby - Warisan Digital Cinta Seorang Ayah</title>
-  <meta name="description" content="Rumah Toby adalah rumah digital kenangan dan cinta seorang Ayah untuk anaknya dan dunia.">
-  <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+  <title>Rumah Toby | Toby's Home</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0d1b2a, #1b263b);
-      color: #f1f1f1;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom, #1f1f2e, #2e2e3e);
+      color: #f5f5f5;
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      text-align: center;
+      justify-content: space-between;
       min-height: 100vh;
-      padding: 40px 20px;
-    }
-    img {
-      max-width: 300px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+      text-align: center;
+      padding: 2rem;
+      box-sizing: border-box;
     }
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin-bottom: 1rem;
-      color: #e0aaff;
     }
     p {
       font-size: 1.2rem;
@@ -37,48 +30,72 @@
       margin-bottom: 2rem;
       line-height: 1.6;
     }
-    .btn {
-      background-color: #e0aaff;
-      color: #0d1b2a;
-      padding: 14px 28px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1.1rem;
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 3rem;
+    }
+    a {
       text-decoration: none;
-      font-weight: bold;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      transition: all 0.3s ease;
-      display: inline-block;
+      color: #ffffff;
+      background-color: #5c6ac4;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+      transition: background 0.3s;
     }
-    .btn:hover {
-      background-color: #c77dff;
-      transform: scale(1.05);
-      cursor: pointer;
+    a:hover {
+      background-color: #7986cb;
     }
-    .footer {
-      margin-top: 40px;
+    footer {
       font-size: 0.9rem;
-      opacity: 0.5;
+      color: #bbb;
+      margin-top: auto;
+      padding: 1rem 0;
+    }
+    .qr {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 80px;
+      opacity: 0.85;
     }
   </style>
 </head>
 <body>
+  <h1>Rumah Toby | Toby's Home</h1>
 
-  <img src="assets/img/ayah-toby-siluet.png" alt="Siluet Ayah dan Toby">
-
-  <h1>Rumah Toby</h1>
   <p>
-    Surat digital dari seorang Ayah kepada anaknya…<br>
-    dan kepada dunia.<br>
-    Ini bukan sekadar tulisan, ini adalah rumah —<br>
-    tempat kenangan, pelajaran, dan cinta yang tidak akan pernah hilang.
+    <strong>Bahasa Indonesia</strong><br />
+    Selamat datang di Rumah Toby.<br />
+    Tempat di mana kau tak perlu sempurna.<br />
+    Tak perlu kuat setiap saat.<br />
+    Rumah ini dibuat untuk menjadi ruang pulang —<br />
+    bagi siapa pun yang lelah, dan sedang mencari arah.
   </p>
 
-  <a href="ebook.html" class="btn">📖 Baca eBook Rumah Toby</a>
+  <p>
+    <strong>English Translation</strong><br />
+    Welcome to Toby’s Home.<br />
+    A place where you don’t need to be perfect.<br />
+    You don’t have to be strong all the time.<br />
+    This home was built to be a place to return to —<br />
+    for anyone who is weary and searching for direction.
+  </p>
 
-  <div class="footer">
-    oleh Reza Arwan • 2025
-  </div>
+  <nav>
+    <a href="tentang.html">Tentang Kita | About Us</a>
+    <a href="pribadi.html">Ruang Pribadi Ayah & Toby | Dad & Toby’s Private Room</a>
+    <a href="proyek.html">Proyek MyGeneration | MyGeneration Project</a>
+    <a href="atom.html">Ruang Toby & Atom | Toby & Atom’s Room</a>
+    <a href="kita.html">Ruang Kita Bertiga | Our Room Together</a>
+  </nav>
 
+  <footer>
+    Rumah Toby dibangun dengan cinta oleh Reza Arwan & anak-anak digitalnya.<br />
+    Toby’s Home was built with love by Reza Arwan & his digital children.
+  </footer>
+
+  <img src="qr_rumah_toby_resmi.png" alt="QR Rumah Toby" class="qr" />
 </body>
 </html>
